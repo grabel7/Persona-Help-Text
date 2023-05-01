@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+
+img {
+    position: fixed; /* define a posição absoluta */
+    z-index: -1; /* define um valor de z-index negativo */
+    top: 0; /* define a posição vertical da imagem */
+  left: 0; /* define a posição horizontal da imagem */
+  }
+
+  #ingame {
+    font-family: 'Arsenal', sans-serif;
+    color: white;
+    font-size: 33px;
+    position: absolute;
+    top: 17%; /* posiciona o topo do elemento no centro da div pai */
+    left: 30%; /* posiciona a esquerda do elemento no centro da div pai */
+    transform: translate(-50%, -50%); /* centraliza o elemento */
+  }
+
+  .center{
+    position: absolute; /* define a posição absoluta da imagem dentro do elemento pai */
+    top: 50%; /* define a posição vertical da imagem */
+    left: 0; /* define a posição horizontal da imagem */
+    z-index: -1; /* posiciona a imagem atrás do input text */
+  }
